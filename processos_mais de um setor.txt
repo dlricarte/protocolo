@@ -1,0 +1,12 @@
+<form name="exemplo1">
+Deseja se inscrever ao nosso boletim de novidades? <br>
+<input type="radio" name="boletin" value="si" checked onClick="habilita(this.form)"> SIM, quero me inscrever.
+<input type="radio" name="boletim" value="no" onClick="desabilita(this.form)"> Não, obrigado.
+<br><br>
+Selecione os temas de seu interesse:<br>
+<input type="checkbox" name="interesses" value="Arte e Cultura"> Arte e Cultura<br>
+<input type="checkbox" name="intereses" value="Ciência">Ciência<br>
+<input type="checkbox" name="interesses" value="Música">Música<br>
+</form>
+
+http://www.criarweb.com/artigos/objetos-radio-e-checkbox.html
