@@ -1,3 +1,6 @@
 processos_mais_de_um_setor.txt
 
 tests/_output/*
+tests/_support/*
+vendor/
+imagens/
