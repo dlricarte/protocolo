@@ -16,10 +16,11 @@
 			<center><h3>PRODÍGIO</h3></center>
 			<hr>
 			<!-- Formulário de envio com os dados-->
-			<form name="entrada" action="inc/comandos_sql.php" method="POST">
+			<form name="entrada" action="codigo/comandos_sql.php" method="POST">
 				<!-- Tabela de opções da portaria-->
 				<table width=22% align="center" border="0">
-						<tr>
+						<input type="hidden" name="acao" value="criar">
+						<tr>							
 							<td width="4">
 							<input type="radio" name="processo" value="PED" checked="">	
 							</td>
@@ -48,9 +49,3 @@
 			</font></center>
 		</body>
 </html>
-<script>
-
-if (form.entrada.processo.value = ""){
- alert ();
-}
-</script>
